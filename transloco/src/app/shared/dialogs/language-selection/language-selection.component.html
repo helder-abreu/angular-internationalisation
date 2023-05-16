@@ -1,0 +1,24 @@
+<div class="language-selection-container">
+  <div class="dialog-header">
+    <span class="dialog-title">{{ 'language-selection.title' | transloco }}</span>
+    <span class="dialog-close">
+      <mat-icon (click)="cancel()">close</mat-icon>
+    </span>
+  </div>
+
+  <div class="dialog-content">
+    <form class="language-form" [formGroup]="form">
+      <mat-form-field class="full-width">
+        <mat-label>{{ 'language-selection.message' | transloco }}</mat-label>
+        <mat-select formControlName="language">
+          <mat-option value="en">{{ 'language-selection.english' | transloco }}</mat-option>
+          <mat-option value="pt">{{ 'language-selection.portuguese' | transloco }}</mat-option>
+        </mat-select>
+      </mat-form-field>
+    </form>
+  </div>
+
+  <div class="dialog-footer">
+    <button mat-raised-button color="primary" (click)="dialogRef.close()">{{ 'core.save' | transloco }}</button>
+  </div>
+</div>

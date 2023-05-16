@@ -1,0 +1,29 @@
+{
+  "core": {
+    "save": "Guardar"
+  },
+  "app": {
+    "title": "Angular Transloco PT",
+    "home": "Página principal",
+    "settings": "Definições"
+  },
+  "home": {
+    "description": "Esta é a página principal",
+    "properties": {
+      "title": "Como alguns textos específicos são apresentados usando o ngx-translate",
+      "dates": "Datas",
+      "decimals": "Números decimais",
+      "currencies": "Moedas"
+    }
+  },
+  "language-selection": {
+    "title": "Mudar idioma",
+    "message": "Escolha um idioma",
+    "english": "Inglês (en-US)",
+    "portuguese": "Português (pt-PT)"
+  },
+  "settings": {
+    "description": "Esta é a página de definições",
+    "change-language": "Mudar idioma"
+  }
+}

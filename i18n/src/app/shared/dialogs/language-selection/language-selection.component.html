@@ -1,0 +1,24 @@
+<div class="language-selection-container">
+  <div class="dialog-header">
+    <span class="dialog-title" i18n>Change language</span>
+    <span class="dialog-close">
+      <mat-icon (click)="dialogRef.close()">close</mat-icon>
+    </span>
+  </div>
+
+  <div class="dialog-content">
+    <form class="language-form" [formGroup]="form">
+      <mat-form-field class="full-width">
+        <mat-label innerHtml="'language-selection.message'" translate></mat-label>
+        <mat-select formControlName="language">
+          <mat-option value="en" i18n>English (en-US)</mat-option>
+          <mat-option value="pt" i18n>Portuguese (pt-PT)</mat-option>
+        </mat-select>
+      </mat-form-field>
+    </form>
+  </div>
+
+  <div class="dialog-footer">
+    <button mat-raised-button color="primary" (click)="save()" i18n>Save</button>
+  </div>
+</div>

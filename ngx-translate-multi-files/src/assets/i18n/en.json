@@ -1,0 +1,10 @@
+{
+    "app": {
+        "title": "Angular Ngx Translate",
+        "home": "Home",
+        "settings": "Settings"
+    },
+    "core": {
+        "save": "Save"
+    }
+}

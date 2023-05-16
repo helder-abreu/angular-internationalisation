@@ -1,0 +1,11 @@
+{
+  "home": {
+    "description": "Esta é a página principal",
+    "properties": {
+      "title": "Como alguns textos específicos são apresentados usando o ngx-translate",
+      "dates": "Datas",
+      "decimals": "Números decimais",
+      "currencies": "Moedas"
+    }
+  }
+}

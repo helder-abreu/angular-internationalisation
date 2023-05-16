@@ -1,0 +1,31 @@
+{
+    "core": {
+        "save": "Guardar"
+    },
+    "dialogs": {
+        "language-selection": {
+            "title": "Mudar idioma",
+            "message": "Escolha um idioma",
+            "english": "Inglês (en-US)",
+            "portuguese": "Português (pt-PT)"
+        }
+    },
+    "app": {
+        "title": "Angular Ngx Translate PT",
+        "home": "Página principal",
+        "settings": "Definições"
+    },
+    "home": {
+        "description": "Esta é a página principal",
+        "properties": {
+            "title": "Como alguns formatos específicos são apresentados usando o ngx-translate",
+            "dates": "Datas",
+            "decimals": "Números decimais",
+            "currencies": "Moedas"
+        }
+    },
+    "settings": {
+        "description": "Esta é a página de definições",
+        "change-language": "Mudar idioma"
+    }
+}

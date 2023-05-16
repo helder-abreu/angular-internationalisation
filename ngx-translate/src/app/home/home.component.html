@@ -1,0 +1,9 @@
+<h3>{{ 'home.description' | translate }}</h3>
+<div>
+  <p>{{ 'home.properties.title' | translate }}:</p>
+  <ul>
+    <li>{{ 'home.properties.dates' | translate }}: {{ today | date:'fullDate' }}</li>
+    <li>{{ 'home.properties.decimals' | translate }}: {{ 123456789 | number }}</li>
+    <li>{{ 'home.properties.currencies' | translate }}: {{ 1234.50 | currency }}</li>
+  </ul>
+</div>

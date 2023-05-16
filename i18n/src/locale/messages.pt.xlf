@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="2821179408673282599" datatype="html">
+        <source>Home</source>
+        <target>Página principal</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4930506384627295710" datatype="html">
+        <source>Settings</source>
+        <target>Definições</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8841729003392857049" datatype="html">
+        <source>Angular i18n EN</source>
+        <target>Angular i18n PT</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1141512909684502613" datatype="html">
+        <source>This is the Home page</source>
+        <target>Esta é a página principal</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="996590062831142072" datatype="html">
+        <source>Let&apos;s see how some specific text is displayed using i18n:</source>
+        <target>Como alguns textos específicos são apresentados usando o i18n</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6520784363517291239" datatype="html">
+        <source>Dates: <x id="INTERPOLATION" equiv-text="{{ today | date:&apos;fullDate&apos; }}"/></source>
+        <target>Datas: <x id="INTERPOLATION" equiv-text="{{ today | date:&apos;fullDate&apos; }}"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2993850043690767508" datatype="html">
+        <source>Decimals: <x id="INTERPOLATION" equiv-text="{{ 123456789 | number }}"/></source>
+        <target>Números decimais: <x id="INTERPOLATION" equiv-text="{{ 123456789 | number:&apos;pt-PT&apos; }}"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2464325138255490441" datatype="html">
+        <source>Currencies: <x id="INTERPOLATION" equiv-text="{{ 1234.50 | currency }}"/></source>
+        <target>Moedas: <x id="INTERPOLATION" equiv-text="{{ 1234.50 | currency:&apos;pt&apos; }}"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8226286465384257594" datatype="html">
+        <source>This is the Settings page</source>
+        <target>Esta é a página de definições</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/settings/settings.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1210069423269934042" datatype="html">
+        <source>Change language</source>
+        <target>Alterar idioma</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/settings/settings.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/dialogs/language-selection/language-selection.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7205604246006950476" datatype="html">
+        <source>English (en-US)</source>
+        <target>Inglês (en-US)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/dialogs/language-selection/language-selection.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2724706678860407369" datatype="html">
+        <source>Portuguese (pt-PT)</source>
+        <target>Português (pt-PT)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/dialogs/language-selection/language-selection.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3768927257183755959" datatype="html">
+        <source>Save</source>
+        <target>Guardar</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/dialogs/language-selection/language-selection.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

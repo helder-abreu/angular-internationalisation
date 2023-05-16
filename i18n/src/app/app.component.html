@@ -1,0 +1,10 @@
+<div class="container">
+  <h1>{{ appTitle }}</h1>
+  <div class="navbar">
+    <button mat-raised-button color="secondary" routerLinkActive="focus" [routerLink]="['/home']" i18n>Home</button>
+    <button mat-raised-button color="secondary" routerLinkActive="focus" [routerLink]="['/settings']" i18n>Settings</button>
+  </div>
+  <div class="app-content">
+    <router-outlet></router-outlet>
+  </div>
+</div>

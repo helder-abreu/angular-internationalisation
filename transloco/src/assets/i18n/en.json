@@ -1,0 +1,29 @@
+{
+  "core": {
+    "save": "Save"
+  },
+  "app": {
+    "title": "Angular Transloco EN",
+    "home": "Home",
+    "settings": "Settings"
+  },
+  "home": {
+    "description": "This is the home page",
+    "properties": {
+      "title": "Let's see how some specific text is displayed using Transloco",
+      "dates": "Dates",
+      "decimals": "Decimals",
+      "currencies": "Currencies"
+    }
+  },
+  "language-selection": {
+    "title": "Change language",
+    "message": "Choose a language",
+    "english": "English (en-US)",
+    "portuguese": "Portuguese (pt-PT)"
+  },
+  "settings": {
+    "description": "This is the settings page",
+    "change-language": "Change language"
+  }
+}
